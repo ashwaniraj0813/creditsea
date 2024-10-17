@@ -1,0 +1,50 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #004d00; /* Dark green */
+  }
+  
+  .navbar-menu {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+  }
+  
+  .navbar-menu li {
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    color: #004d00;
+    cursor: pointer;
+  }
+  
+  .navbar-right {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    list-style: none;
+  }
+  
+  .navbar-right li {
+    cursor: pointer;
+  }
+  
+  .navbar-icon {
+    margin-right: 0.5rem;
+    color: #004d00; /* Dark green */
+  }
+  
+  .dropdown {
+    font-size: 1.25rem;
+    color: #004d00;
+  }
+  
